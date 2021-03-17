@@ -1,0 +1,423 @@
+/*
+Theme Name: Shopkeeper Child
+Theme URI: http://shopkeeper.getbowtied.com/
+Description: This is a child theme for Shopkeeper.
+Author: Get Bowtied
+Author URI: http: //www.getbowtied.com/
+Template: shopkeeper
+Version: 1.0
+*/
+
+
+/****************************************************************/
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+/****************************************************************/
+
+/* top text message on header */
+.site-top-message {
+	display: block;
+	text-align: center;
+	float: unset !important;
+	left: unset !important;
+}
+
+
+.woocommerce ul.products li.product .onsale, .woocommerce .products span.onsale, .woocommerce-page .products span.onsale, .woocommerce span.onsale, .woocommerce-page span.onsale, .quickview-badges span.onsale {
+    top: 0px;
+    left: 0px;
+    background: rgba(255,69,56,.9);
+}
+.products .out_of_stock_badge_loop {
+    top: 0;
+    left: 0;
+}
+
+.site-tools ul li:hover {
+  opacity: 1;
+    color: #EC7A5C !important;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+}
+.site-tools ul li a:hover {
+  opacity: 1;
+    color: #EC7A5C !important;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+}
+
+/* buy one get one badge */
+.buyOneGetOne {
+	background-color: rgba(255,69,56,.9);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+#sizeChartLink {
+	text-align: right;
+    margin-bottom: -25px;
+}
+
+
+/* customize style 4 for single product */
+@media only screen and (min-width: 1280px) {
+  .product_layout_4 .product_content_wrapper {
+      max-width: 93%;
+  }
+}
+
+/* feature */
+  .product_layout_4 .product_content_wrapper .product-images-wrapper
+   .product-images-style-4 .product_images>.product-image:first-child {
+    width: 50% !important;
+  }
+
+  .product_layout_4 .product_content_wrapper .product-images-wrapper .product-images-style-4 
+  .product_images>.product-image:nth-child(4n+4), .product_layout_4 .product_content_wrapper 
+  .product-images-wrapper .product-images-style-4 .product_images>.product-image:nth-child(4n+3) {
+    vertical-align: top !important;
+  }
+
+.product_layout_4 .product_content_wrapper .product-images-wrapper
+ .product-images-style-4 .product_images .video {
+   padding-top: 0;
+   width: 50%;
+	 display: inline-block;
+ }
+
+.product_layout_4 .product_content_wrapper 
+.woocommerce-product-gallery 
+.woocommerce-product-gallery__image.youtube
+.fluid-width-video-wrapper {
+	padding-top: 0;
+}
+
+/* ======================== style to fit images with video ========================= */
+
+/* custimize video on layout 3 */
+.product_layout_3 .product_content_wrapper
+.product-images-wrapper .product_images .product-image.video {
+	padding-top: 0 !important;
+}
+
+/* custimize video on video on layout 2 */
+.product_layout_2 .product_content_wrapper
+.product-images-wrapper .product_images .product-image.video {
+	padding-top: 0 !important;
+}
+
+.product_layout_4 .product_content_wrapper 
+.product-images-wrapper .product-images-style-4 
+.product_images>.product-image {
+	vertical-align: top !important;
+}
+
+.product_layout_4 .product_content_wrapper .product-images-wrapper
+.product-images-style-4 .product_images .video {
+	margin-bottom: 5px !important;
+}
+
+/* ======================== custom related product ====================================== */
+.related h2 {
+	display: block !important;
+}
+
+
+/* =========================== custom buy 1 get 1 label ================================ */
+span.sale-perc {
+       top: 0;
+    left: 10px;
+    background: #bababa;
+    position: absolute;
+    color: red !important;
+    z-index: 999;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+
+/* shop header */
+/* chrismas header */
+.chrismas-header-image {
+	margin-top: 3rem !important;
+	margin-right: 2rem !important;
+	margin-left: 2rem !important;
+}
+
+@media (max-width: 600px) {
+	.categories_grid .category_two_cat_1 .category_item,
+	.categories_grid .category_two_cat_2 .category_item {
+		height: 25rem !important;
+	}
+	#page_wrapper.transparent_header .content-area.shop-page {
+		padding-top: 30px !important;
+	}
+	.chrismas-header-image {
+		margin-top: 0 !important;
+		margin-right: 1rem !important;
+		margin-left: 1rem !important;
+	}	
+}
+
+/* ============================== chrismas popup ================================ */
+#popmake-42402 {
+    background: url(https://staging.magmasportswear.com/wp-content/uploads/2021/02/46a83def-ba7b-45c4-9052-7d2645428054-1-e1613214321197.jpg);
+    max-width: 286px !important;
+    background-repeat: no-repeat;
+    height: 370px !important;
+	border-radius: 20px;
+}
+
+#popmake-42402 .pum-close {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+/* ============================== end chrismas popup ================================ */
+
+#shop-for-her {
+	 margin-top: 290px;
+    width: 80% !important;
+    max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px !important;
+
+}
+#shop-for-him {
+    width: 80% !important;
+    max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px !important;
+
+}
+
+#shop-for-her a, #shop-for-him a {
+	color: #fff;
+    border-color: #000000;
+    background-color: #000000;
+    border-radius: 0;
+    width: 100%;
+    box-shadow: unset;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+
+.owl-carousel .owl-item {
+	margin: 0 5px !important;
+	width: 320px !important;
+}
+
+/* =============================== home cat section =============================== */
+.vc_custom_1608880973855 {
+    margin-bottom: 20px !important;
+}
+
+/* =============================== Filter on Shop page =============================== */
+.product-categories > .cat-parent > a {
+  font-weight: bold;
+  font-size: 1.2rem !important;
+}
+
+.woocommerce .widget_product_categories ul li a:before, 
+.woocommerce-page .widget_product_categories ul li a:before, 
+.widget_product_categories ul li a:before {
+  display: none !important;
+}
+
+.shop_sidebar .widget ul .children {
+    margin: 10px 0 10px 5px !important;
+}
+
+/* ============================================ Cart Section ====================================== */
+.shopkeeper-mini-cart {
+  background-color: #ffffff !important;
+}
+.shopkeeper-mini-cart
+  .widget.woocommerce.widget_shopping_cart
+  .widget_shopping_cart_content
+  .cart_list.product_list_widget
+  li.mini_cart_item
+  a:not(.remove) {
+  color: #707070 !important;
+}
+
+.shopkeeper-mini-cart .quantity {
+  color: #707070 !important;
+}
+
+.shopkeeper-mini-cart .total {
+  color: #707070 !important;
+}
+.shopkeeper-mini-cart .woocommerce-Price-amount {
+  color: #707070 !important;
+}
+.shopkeeper-mini-cart .widget.woocommerce.widget_shopping_cart
+.widget_shopping_cart_content p.buttons a.button.checkout.wc-forward {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.shopkeeper-mini-cart .wc-forward{
+	color: #000000 !important;
+}
+.shopkeeper-mini-cart .widget.woocommerce.widget_shopping_cart 
+.widget_shopping_cart_content
+.cart_list.product_list_widget li.empty {
+	color: #000000 !important;
+}
+.shopkeeper-mini-cart .wc-forward {
+	background-color: #ffffff !important;
+}
+
+.shopkeeper-mini-cart .widget.woocommerce.widget_shopping_cart
+.widget_shopping_cart_content 
+.cart_list.product_list_widget li.mini_cart_item .remove {
+	visibility: unset !important;
+	opacity: 1 !important;
+	color: #707070  !important;
+}
+.shopkeeper-mini-cart .widget.woocommerce.widget_shopping_cart
+.widget_shopping_cart_content .cart_list.product_list_widget:not(.empty) {
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+
+.shopkeeper-mini-cart .widget.woocommerce.widget_shopping_cart 
+.widget_shopping_cart_content .cart_list.product_list_widget {
+	min-height: 300px !important;
+}
+
+.button:hover {
+	background-color: rgb(204 194 191 / 80%) !important;
+}
+
+/* ================================= end cart section ================================= */
+
+/* ================================ cart notification ================================= */
+body.gbt_custom_notif .page-notifications
+.gbt-custom-notification-notice
+.gbt-custom-notification-notice-icon {
+	background: #000 !important;
+}
+
+body.gbt_custom_notif .page-notifications .gbt-custom-notification-notice
+.button, body.gbt_custom_notif .page-notifications 
+.gbt-custom-notification-notice a{
+	padding: 0rem 1rem !important;
+}
+
+.gbt-custom-notification-message div {
+	color: #000000 !important;
+}
+
+.page-notifications .gbt-custom-notification-notice {
+	background: #ffffff !important;
+}
+
+button#btn-bag {
+	 padding: 10px 20px;
+    border: 1px solid #000000;
+    margin-right: 20px;
+    font-size: 1.2rem !important;
+}
+
+button#btn-checkout {
+	 padding: 10px 20px;
+    border: 1px solid #000000;
+    margin-right: 20px;
+    font-size: 1.2rem !important;
+}
+
+a#shoping-btn {
+	padding: 10px 20px;
+    border: 1px solid #000000;
+    /* margin-right: 20px; */
+    font-size: 1.2rem !important;
+    text-decoration: none;
+    color: #000000 !important;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    width: 93%;
+    font-weight: normal;
+}
+
+@media (max-width: 600px) {
+  button#btn-bag,
+  button#btn-checkout,
+  a#shoping-btn {
+      width: 100% !important;
+      font-size: 1rem !important;
+      margin-right: 0 !important;
+  }
+	
+	button#btn-checkout, a#shoping-btn {
+		margin-top: 10px !important;
+	}
+}
+/* ================================ end cart notification ============================== */
+
+/* ================================ start shop sidebar ========================================= */
+.shop_sidebar .cat-parent > a {
+    /* font-size: 34px !important; */
+    color: #4B4B4B !important;
+}
+.shop_sidebar .cat-item .count {
+    float: none;
+    color: #C3C3C3;
+    background-color: unset;
+    padding: 0 !important;
+}
+.cat-parent > span.count {
+    display: none !important;
+}
+
+.shop_sidebar .children {
+    margin: 10px ​0 0px 0px!important;
+}
+.shop_sidebar .cat-item .count::before {
+    content: "(";
+}
+.shop_sidebar .cat-item .count::after {
+    content: ")";
+}
+.widget .cat-item {
+    margin-bottom: 5px !important;
+}
+.shop_sidebar .children .cat-item a{
+    font-size: 14px !important;
+    color: #707070;
+}
+
+.wpb_widgetised_column .widget {
+    margin-bottom: 0 !important;
+    padding-bottom: 20px;
+}
+
+li.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term {
+    margin-bottom: 3px !important;
+}
+
+li.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term {
+    color: #ACACAC !important;
+    margin-bottom: 3px !important;
+}
+
+li.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term  a {
+    color: #ACACAC !important;
+}
+
+li.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term .count {
+    display: none !important;
+}
+/* ================================ end shop sidebar ======================================== */
+
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
